@@ -72,7 +72,7 @@ def task3(x, y, rx, ry, rot, color, border, linewidth):
     # 放大 3 倍
     cgo.render(cmbr, x, y, 3, rot)
 
-task3(-100, 100, 0, 0, 0, "blue", True, 4)
+task3(-100, -130, 0, 0, 0, "blue", True, 4)
 '''
     return outstring
     
