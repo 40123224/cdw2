@@ -11,7 +11,7 @@ def task0():
 @bg3.route('/task1')
 def task1():
     #return "bg3 task1"
-    return render_template('task1.html', var1="來自 bg3的 task1 變數")
+    return render_template('task1.html', var1="來自 bg3 的 task1 變數")
 
 # 展示傳回 Brython 程式
 @bg3.route('/task2')
