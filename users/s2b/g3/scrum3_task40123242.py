@@ -2,10 +2,10 @@
 from flask import Blueprint, render_template
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-scrum2_task40123224 = Blueprint('scrum2_task40123224', __name__, url_prefix='/g3', template_folder='templates')
+scrum3_task40123242 = Blueprint('scrum3_task40123242', __name__, url_prefix='/g3', template_folder='templates')
 
-# scrum1_task40123224 為完整可以單獨執行的繪圖程式
-@scrum2_task40123224.route('/scrum2_task40123224')
+# scrum1_task40123242 為完整可以單獨執行的繪圖程式
+@scrum3_task40123242.route('/scrum3_task40123242')
 def task1():
     outstring = '''
 from javascript import JSConstructor
@@ -46,32 +46,26 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
             "strokeColor": "tan",
             "lineWidth": linewidth })
 
-    A1 = cmbr.dup()
-    A1.rotate(150)
-    A8 = cmbr.dup()
-    A8.rotate(90)
-    A8.translate(20,-20)
-    B5 = cmbr.dup()
-    B5.rotate(90)
-    B5.translate(60,-20)
-    B12 = cmbr.dup()
-    B12.rotate(0)
-    B12.translate(20*math.cos(30*deg)+80,-30)
-    C3 = cmbr.dup()
-    C3.rotate(45)
-    C3.translate(20*math.sin(10*deg)+120, -20*math.cos(10*deg)-20)
-    D1 = cmbr.dup()
-    D1.translate(180, 0)
-    D9 = cmbr.dup()
-    D9.rotate(90)
-    D9.translate(180, -60)
-    cmbr.appendPath(A1)
-    cmbr.appendPath(A8)
-    cmbr.appendPath(B5)
-    cmbr.appendPath(B12)
-    cmbr.appendPath(C3)
-    cmbr.appendPath(D1)
-    cmbr.appendPath(D9)
+    A7 = cmbr.dup()
+    A7.rotate(90)
+    A7.translate(0,-20)
+    B4 = cmbr.dup()
+    B4.rotate(90)
+    B4.translate(60, 20)
+    B11 = cmbr.dup()
+    B11.rotate(120)
+    B11.translate(80,-60)
+    C7 = cmbr.dup()
+    C7.rotate(90)
+    C7.translate(20*math.sin(10*deg)+120+20*math.sin(45*deg),20*math.cos(10*deg)+20*math.cos(45*deg))
+    D7 = cmbr.dup()
+    D7.rotate(30)
+    D7.translate(20*math.cos(30*deg)+200, 20*math.sin(30*deg))
+    cmbr.appendPath(A7)
+    cmbr.appendPath(B4)
+    cmbr.appendPath(B11)
+    cmbr.appendPath(C7)
+    cmbr.appendPath(D7)
     # hole 為原點位置
     hole = cobj(shapedefs.circle(4), "PATH")
     cmbr.appendPath(hole)

@@ -2,10 +2,10 @@
 from flask import Blueprint, render_template
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-scrum2_task40123224 = Blueprint('scrum2_task40123224', __name__, url_prefix='/g3', template_folder='templates')
+scrum2_task40123250 = Blueprint('scrum2_task40123250', __name__, url_prefix='/g3', template_folder='templates')
 
-# scrum1_task40123224 為完整可以單獨執行的繪圖程式
-@scrum2_task40123224.route('/scrum2_task40123224')
+# scrum1_task40123250 為完整可以單獨執行的繪圖程式
+@scrum2_task40123250.route('/scrum2_task40123250')
 def task1():
     outstring = '''
 from javascript import JSConstructor
@@ -46,32 +46,32 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
             "strokeColor": "tan",
             "lineWidth": linewidth })
 
-    A1 = cmbr.dup()
-    A1.rotate(150)
-    A8 = cmbr.dup()
-    A8.rotate(90)
-    A8.translate(20,-20)
-    B5 = cmbr.dup()
-    B5.rotate(90)
-    B5.translate(60,-20)
-    B12 = cmbr.dup()
-    B12.rotate(0)
-    B12.translate(20*math.cos(30*deg)+80,-30)
-    C3 = cmbr.dup()
-    C3.rotate(45)
-    C3.translate(20*math.sin(10*deg)+120, -20*math.cos(10*deg)-20)
-    D1 = cmbr.dup()
-    D1.translate(180, 0)
-    D9 = cmbr.dup()
-    D9.rotate(90)
-    D9.translate(180, -60)
-    cmbr.appendPath(A1)
-    cmbr.appendPath(A8)
-    cmbr.appendPath(B5)
-    cmbr.appendPath(B12)
-    cmbr.appendPath(C3)
-    cmbr.appendPath(D1)
-    cmbr.appendPath(D9)
+    A2 = cmbr.dup()
+    A2.rotate(0)
+    A2.translate(0, -20)
+    A9 = cmbr.dup()
+    A9.translate(0,-40)
+    B9 = cmbr.dup()
+    B9.rotate(0)
+    B9.translate(60,-40)
+    B13 = cmbr.dup()
+    B13.rotate(90)
+    B13.translate(60,-60)
+    C4 = cmbr.dup()
+    C4.rotate(90)
+    C4.translate(20*math.sin(10*deg)+120+20*math.sin(45*deg),-20*math.cos(10*deg)-20-20*math.cos(45*deg))
+    D2 = cmbr.dup()
+    D2.translate(180, 20)
+    D10 = cmbr.dup()
+    D10.rotate(120)
+    D10.translate(200, -60)
+    cmbr.appendPath(A2)
+    cmbr.appendPath(A9)
+    cmbr.appendPath(B9)
+    cmbr.appendPath(B13)
+    cmbr.appendPath(C4)
+    cmbr.appendPath(D2)
+    cmbr.appendPath(D10)
     # hole 為原點位置
     hole = cobj(shapedefs.circle(4), "PATH")
     cmbr.appendPath(hole)
