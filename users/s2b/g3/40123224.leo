@@ -20,7 +20,7 @@
 <v t="leo.20160421091113.1"><vh>進入 content 目錄</vh></v>
 <v t="leo.20160421091128.1" a="E"><vh>@path content</vh>
 <v t="leo.20160421091141.1" a="E"><vh>@path bg2</vh>
-<v t="leo.20160421091214.1"><vh>@clean 40123235_2.md</vh></v>
+<v t="leo.20160421091214.1"><vh>@clean 40123224_2.md</vh></v>
 </v>
 </v>
 </v>
@@ -48,10 +48,10 @@ g.es("admin pelican 近端執行完畢")
 <t tx="leo.20160421091128.1"></t>
 <t tx="leo.20160421091141.1"></t>
 <t tx="leo.20160421091214.1">@language md
-Title: 40123235 - 期中報告
-Category: bg2
-Tags: scrum1, task1, 40123235
-Author: 40123235
+Title: 40123224 - 期中報告
+Category: bg3
+Tags: scrum1, task1, 401232324
+Author: 40123224
 @others
 
 
@@ -59,37 +59,37 @@ Author: 40123235
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-自評分數:80
+自評分數:70
 
 &lt;h2&gt;md檔:fork cdw2並且git clone下來切換分支到 gh-pages,在content目錄下新增組別資料夾
 
-&lt;img src="./../files/bg2/1.png"&gt;
+&lt;img src="./../files/bg3/1.png"&gt;
 
-在cdw2=&gt;users=&gt;s2b=&gt;bg2下新增個人的leo檔,在裡面新增md檔,內容打在裡面
+在cdw2=&gt;users=&gt;s2b=&gt;bg3下新增個人的leo檔,在裡面新增md檔,內容打在裡面
 
-&lt;img src="./../files/bg2/2.png"&gt;
+&lt;img src="./../files/bg3/2.png"&gt;
 
 &lt;h2&gt;繪ABCD:需在master分支下執行,需先在myflaskapp.py註冊各組組員的檔案如圖所示
 
-&lt;img src="./../files/bg2/3.png"&gt;
+&lt;img src="./../files/bg3/3.png"&gt;
 
-&lt;img src="./../files/bg2/4.png"&gt;
+&lt;img src="./../files/bg3/4.png"&gt;
 
 繪圖程式採用老師給的scrum1及scrum2,scrum1放在組別leo裡作為統組所有組員
 
 scum2的內容所用
 
-&lt;img src="./../files/bg2/5.png"&gt;
+&lt;img src="./../files/bg3/5.png"&gt;
 
-&lt;img src="./../files/bg2/6.png"&gt;
+&lt;img src="./../files/bg3/6.png"&gt;
 
 而每位組員的scrum2則繪製ABCD各部位所用
 
-&lt;img src="./../files/bg2/7.png"&gt;
+&lt;img src="./../files/bg3/7.png"&gt;
 
 上述完成後須先python wsgi.py在近端測試可否執行
 
-&lt;a href="http://cdw2-cadp13ag35.rhcloud.com/g2/scrum1_task40123235"&gt;bg2-openshift&lt;/a&gt; 
+&lt;a href="http://cdw2-cadp13ag24.rhcloud.com/g3/scrum1_task40123224"&gt;bg3-openshift&lt;/a&gt; 
 </t>
 </tnodes>
 </leo_file>
